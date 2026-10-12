@@ -109,6 +109,8 @@ details .more li{margin-bottom:6px}
 .gallery figure{margin:0}
 .gallery img{display:block;width:100%;height:170px;object-fit:contain;background:#fff;border-radius:6px;border:1px solid var(--line);cursor:zoom-in}
 .gallery figcaption{font-size:.82rem;color:var(--muted);margin-top:5px;line-height:1.35}
+a.cert{font-size:.88rem;font-weight:500;white-space:nowrap;margin-left:4px}
+.pub a.cert{margin-left:10px}
 .note{font-size:.88rem;color:var(--muted);font-style:italic;margin-top:10px}
 dialog.lightbox{border:0;padding:0;background:transparent;max-width:94vw;max-height:92vh}
 dialog.lightbox::backdrop{background:rgba(10,20,30,.85)}
@@ -277,6 +279,10 @@ footer{font-size:.85rem;color:var(--muted);padding-top:40px}
           <h3>Prediction of calm water resistance of a ship using Smoothed Particle Hydrodynamics</h3>
           <div class="who">Supervisor: Dr. Md. Mashiur Rahaman, Dept. of NAME, BUET</div>
           <p>Applied the mesh-free SPH method to predict the calm-water resistance of the KCS hull using the GPU-accelerated DualSPHysics solver, validated against experimental towing tank data.</p>
+          <figure class="shot">
+            <img src="thesis-presentation.jpg" alt="Ahsan Ahmed and Shafollo Proshad Gupto presenting their thesis objectives at a podium in a BUET seminar room" loading="lazy">
+            <figcaption>Presenting my thesis with my thesis partner Shafollo Proshad Gupto at the Department of NAME, BUET.</figcaption>
+          </figure>
           <details>
             <summary>Project details</summary>
             <div class="more">
@@ -333,6 +339,10 @@ footer{font-size:.85rem;color:var(--muted);padding-top:40px}
           <h3>Inland passenger ferry for 50 cars and 700 passengers, Dhaka–Hatiya–Dhaka</h3>
           <div class="who">Supervisor: Dr. Goutam Kumar Saha, Dept. of NAME, BUET</div>
           <p>A complete ferry design for a narrow, congested inland route, taken from hydrostatics through to a 3D-printed scale prototype.</p>
+          <figure class="shot">
+            <img src="ferry338-model.jpg" alt="Ahsan Ahmed holding the 3D-printed ferry model next to project partner Tairim Marzia Dina holding the design report" loading="lazy">
+            <figcaption>The 3D-printed scale model, with my project partner Tairim Marzia Dina and our design report.</figcaption>
+          </figure>
           <details>
             <summary>Project details</summary>
             <div class="more">
@@ -363,7 +373,7 @@ footer{font-size:.85rem;color:var(--muted);padding-top:40px}
           <span class="tag">Industrial internship</span>
           <h3>Intern, Dockyard &amp; Engineering Works Ltd.</h3>
           <div class="who">Bangladesh Navy, Narayanganj, Bangladesh</div>
-          <p>Hands-on exposure to a working shipyard, from machining and welding to launching and berthing.</p>
+          <p>Hands-on exposure to a working shipyard, from machining and welding to launching and berthing. <a class="cert" href="cert-dockyard.jpg">View certificate</a></p>
           <details>
             <summary>Project details</summary>
             <div class="more">
@@ -390,7 +400,7 @@ footer{font-size:.85rem;color:var(--muted);padding-top:40px}
         <span class="title">Design of the Niger Drift passenger ferry</span>
         <div class="authors">M. K. M. Zidan, M. A. Rahaman, M. K. Islam, S. P. Gupto, <b>A. Ahmed</b>, S. Tubash, and A. Mondal</div>
         <div class="authors">Team presentation, Worldwide Ferry Safety Association (WFSA) Ferry Safety and Technology Conference</div>
-        <span class="status">Presented, May 2026</span>
+        <span class="status">Presented, May 2026</span> <a class="cert" href="cert-wfsa-speaker.jpg">View presentation certificate</a>
       </div>
     </section>
 
@@ -423,7 +433,7 @@ footer{font-size:.85rem;color:var(--muted);padding-top:40px}
     <section id="awards">
       <h2>Honours &amp; awards</h2>
       <ul class="plain">
-        <li><span class="yr">Mar 2026</span><span><b>3rd Place (Global)</b> and US$1,000 prize, 13th Annual International Student Design Competition for Safe and Affordable Ferry, Worldwide Ferry Safety Association, with Team Black Pearl</span></li>
+        <li><span class="yr">Mar 2026</span><span><b>3rd Place (Global)</b> and US$1,000 prize, 13th Annual International Student Design Competition for Safe and Affordable Ferry, Worldwide Ferry Safety Association, with Team Black Pearl. <a class="cert" href="cert-wfsa-award.jpg">View certificate</a></span></li>
         <li><span class="yr">2026</span><span><b>2nd Place</b> and BDT 2,000 prize, NAME Olympiad (Senior Category), NAME FEST, BUET</span></li>
         <li><span class="yr">2022, 2024, 2025</span><span><b>University Merit Scholarship</b>, BUET, for academic excellence</span></li>
         <li><span class="yr">2020</span><span><b>Education Board Scholarship</b>, Higher Secondary Certificate (HSC) Examination</span></li>
@@ -431,8 +441,8 @@ footer{font-size:.85rem;color:var(--muted);padding-top:40px}
       </ul>
       <h3 class="subhead">Certifications &amp; training</h3>
       <ul class="plain">
-        <li><span class="yr">Sep 2026</span><span>Rhino 8 (40.5 hours), Udemy</span></li>
-        <li><span class="yr">Jan 2026</span><span>Fire Fighting, Fire Prevention, Rescue and First Aid Training, Bangladesh Fire Service &amp; Civil Defence Directorate, held at Dept. of NAME, BUET</span></li>
+        <li><span class="yr">Sep 2026</span><span>Rhino 8 (40.5 hours), Udemy. <a class="cert" href="cert-rhino8.jpg">View certificate</a></span></li>
+        <li><span class="yr">Jan 2026</span><span>Fire Fighting, Fire Prevention, Rescue and First Aid Training, Bangladesh Fire Service &amp; Civil Defence Directorate, held at Dept. of NAME, BUET. <a class="cert" href="cert-firesafety.jpg">View certificate</a></span></li>
       </ul>
     </section>
 
@@ -487,6 +497,9 @@ footer{font-size:.85rem;color:var(--muted);padding-top:40px}
     im.src=i.src;im.alt=i.alt;
     const fc=i.parentElement.querySelector('figcaption');cap.textContent=fc?fc.textContent:'';
     d.showModal();
+  }));
+  document.querySelectorAll('a.cert').forEach(a=>a.addEventListener('click',e=>{
+    e.preventDefault();im.src=a.getAttribute('href');im.alt='Certificate';cap.textContent='Certificate';d.showModal();
   }));
   d.addEventListener('click',()=>d.close());
 })();
